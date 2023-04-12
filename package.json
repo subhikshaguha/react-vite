@@ -1,8 +1,14 @@
 {
   "name": "workflows-react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/lib",
   "license": "MIT",
+  "directions": {
+    "lib": "src/lib"
+  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "dev": "vite",
     "tscheck": "tsc" 
